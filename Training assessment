@@ -1,0 +1,88 @@
+Q1 can you tell me real time usages of triggers
+Triggers are used to carry the database operations
+
+Q2 Why wrapper classes in java and their usage in real time
+Wrapper classes are mainly used to convert primitive datatypes in to objects
+
+Q3 Difference between string buffer and string builder
+StringBuffer:StringBuffer is synchronized that is  thread safe. It means two threads can't call the methods of StringBuffer simultaneously. 
+StringBuilder:StringBuilder is non-synchronized that is not thread safe. It means two threads can call the methods of StringBuilder simultaneously. 
+
+Q4 Diff b/w List and Set Collection framwork 
+List: List is an ordered sequence and it allows duplicate elements.Elements by their position can be accessed. 
+Set: Set is an unordered sequence and it doesn’t allow duplicate elements.Position access to elements is not allowed.
+
+Q5 Diff b/w Checked and Unchecked Exceptions with examples 
+Checked Exceptions are checked at runtime of the program, example:File not found exception.
+ where as Unchecked Exceptions are checked at the compile time of the program, example:Arithematic exception.
+ 
+Q6 Diff b/w statement,prepared statement and color statement in terms of security
+ Statement:used to execute string-based SQL queries.
+PreparedStatement:used to execute parameterized SQL queries.
+callable statements:used to execute the stored procedures.
+
+Q6.1 Diff b/w JQuery and JavaScript(purpose).
+JavaScript uses JIT[Just in Time Compiler] which is combination of interpreter and Compile and is written in C.
+JQuery Uses the resources that are provided by JavaScript to make things easier. It is a light-weight JavaScript library.
+
+Q6.2 Diff b/w Let and Var in Js.
+Let: can enhance our code readability and decreases the chance of programming error
+Var:used to declare a variable in JavaScript. A variable declared with the var keyword is defined throughout the program.
+
+Q6.3 Diff b/w ID selector and Class Selector examples.
+id” is unique in a page and can only apply at most one element,ID selector is a name preceded by a hash character (“#”). 
+class” selector can apply to multiple elements.a class selector is a name preceded by a full stop (“.”).
+
+Q6.4 Diff b/w procedure and functions.
+set of instructions which takes some input and performs certain tasks. In SQL, a function returns a value.
+Procedureis a set of instructions which takes input and performs certain task. In SQL, procedure does not return a value.
+
+Q8 Usage of Generics in Java?
+ Genericsin java enable types (classes and interfaces) to be parameters when defining classes, interfaces and methods.
+ 
+Q9. Java-7 & 8 Features methods and classes?
+auto-boxing, generics, var-args, java annotations, enum, premain method , lambda expressions, functional interface, method references etc.
+
+Q10 need of state management
+State-Management is used for implementation of a Design Pattern, with the help of this design pattern we can synchronize the state of the application throughout all components of the application.
+
+Q11 JSP and JSTL tags
+The JavaServer Pages is a collection of useful JSP tags which encapsulates the core functionality common to many JSP applications.
+JSTL has structural tasks such as iteration and conditionals, tags for manipulating XML documents, internationalization tags, and SQL tags.
+
+Q12 MVC Representational
+Model–view–controller is a software design pattern commonly used for developing user interfaces that divide the related program logic into three interconnected elements. 
+
+Q13 Module Qualifier in mvc
+The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type.
+
+Q14 Cost of sharding in time of configuration
+Hibernate Shards is a framework that is designed to encapsulate and minimize this complexity by adding support for horizontal partitioning on top of Hibernate Core. 
+
+Q15 HTML5 and 6 features
+HTML 5 give us many existing features like vedio support and mobile optimized websites.It provide so many tags like <script>, <link> so on...
+HTML 6 gives some wounding express tags. In this we can directly put <container> or <wrraper> rather then using multiple id's.
+
+Q16 Some of the selectors in css#
+Simple selectors 
+Combinator selectors 
+Pseudo-class selectors 
+Pseudo-elements selectors
+
+Q17 can we use JSP as controller
+JSP Controller acts as an interface between View and Model.
+
+Q18 Why spring is so popular(advantage)
+Spring is one of the most popular open source framework for developing enterprise applications. It provides comprehensive infrastructure support for developing Java based applications. Spring also enables the developer to create high performing, reusable, easily testable and loose coupling enterprise Java application.
+
+Q19 what is IOC container.
+IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML file and works accordingly.
+
+Q20 spring standalone application , Scopes and spring Beans what is the default scope of spring web mvc
+Spring MVC controllers are singleton by default and any controller object variable/field will be shared across all the requests and sessions. If the object variable should not be shared across requests, one can use @Scope("request") annotation above your controller class definition to create instance per request.
+
+Q21 How will you require bean in java(spring bean application)
+@Bean is a method-level annotation and a direct analog of the XML <bean/> element. The annotation supports most of the attributes offered by <bean/> such as init-method, destroy-method, autowiring, lazy-init, dependency-check, depends-on and scope.
+
+Q22 How bean configurable in angular
+
